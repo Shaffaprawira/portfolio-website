@@ -354,6 +354,10 @@ section .button button:hover {
 .projects .boxes .box:hover p {
   color: #fff;
 }
+.projects a, .projects a:visited{
+  color: #000000;
+}
+
 /* Contact Me CSS */
 .contact {
   background: #f0f8ff;

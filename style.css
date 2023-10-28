@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* Google Font CDN Link */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 * {
@@ -111,9 +115,7 @@ nav.sticky .menu-btn {
 .home {
   height: 100vh;
   width: 100%;
-  background: url("Images/Untitled_design_3.png") no-repeat;
-  /* background: url("images/background_example.png") no-repeat; */
-  /* background: #F0F8FF; */
+  background: url("Images/background.png") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -169,8 +171,6 @@ nav.sticky .menu-btn {
 }
 
 /* About Section Styling */
-/* Those Elements Where We Have Apply Same CSS,
- I'm Selecting Directly 'Section Tag' and 'Class'  */
 section {
   padding-top: 40px;
 }
@@ -354,7 +354,8 @@ section .button button:hover {
 .projects .boxes .box:hover p {
   color: #fff;
 }
-.projects a, .projects a:visited{
+.projects a,
+.projects a:visited {
   color: #000000;
 }
 

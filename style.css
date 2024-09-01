@@ -216,6 +216,8 @@ section .title span::after {
   width: 400px;
   object-fit: cover;
   border-radius: 12px;
+  border-style: solid;
+  border-color: #4070f4;
 }
 .about-details .right {
   width: 55%;

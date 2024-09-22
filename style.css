@@ -289,7 +289,7 @@ section .button button:hover {
   margin: 0 6px;
 }
 .skills-details .boxes {
-  width: 45%;
+  width: 35%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

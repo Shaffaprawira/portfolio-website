@@ -356,6 +356,10 @@ section .button button:hover {
 .projects a:visited {
   color: #000000;
 }
+.bullet {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
 
 /* Contact Me CSS */
 .contact {
@@ -519,3 +523,8 @@ footer .text span a:hover {
     color: #4070f4;
   }
 }
+
+/* .project-description {
+  text-align: left;
+  color: #0e2431;
+} */
